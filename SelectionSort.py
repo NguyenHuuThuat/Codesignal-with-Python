@@ -1,14 +1,3 @@
-def selectionSort(arr):
-    min_tmp = 0
-    for i in range(0, len(arr)):
-        min_tmp = arr[i]
-        for j in range(i+1, len(arr)):
-            if min_tmp > arr[j]:
-                min_tmp = arr[j]
-        arr[j] = arr[i]
-        arr[i] = min_tmp
-    return arr
-
 def slectSort(arr):
     n = len(arr)
     for i in range(0, n):
